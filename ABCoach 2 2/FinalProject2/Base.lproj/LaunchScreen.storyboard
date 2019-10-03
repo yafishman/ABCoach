@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Red_Phone_Font-Awesome.svg" translatesAutoresizingMaskIntoConstraints="NO" id="v6K-vg-GwW">
+                                <rect key="frame" x="32" y="483" width="85" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="v6K-vg-GwW" secondAttribute="height" multiplier="85:94" id="fyH-3a-AFn"/>
+                                    <constraint firstAttribute="height" constant="94" id="oEE-rn-00R"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Active Bystander Coach" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSl-9l-aXd">
+                                <rect key="frame" x="72" y="53" width="255" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="80"/>
+                                <color key="textColor" red="0.19607843137254902" green="0.55294117647058827" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" fixedFrame="YES" text="It's easy as A-B-C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihB-aS-t6H">
+                                <rect key="frame" x="79" y="289" width="187" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="25"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="AED logo green" translatesAutoresizingMaskIntoConstraints="NO" id="2iG-It-jNJ">
+                                <rect key="frame" x="264" y="483" width="70" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="0tA-tI-jXe"/>
+                                    <constraint firstAttribute="width" secondItem="2iG-It-jNJ" secondAttribute="height" multiplier="35:47" id="n7h-e3-Vls"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press to Find AED" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIR-Fi-bMd">
+                                <rect key="frame" x="251" y="572" width="93" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aIR-Fi-bMd" secondAttribute="height" multiplier="93:56" id="5P9-7y-x6I"/>
+                                    <constraint firstAttribute="width" constant="93" id="a8n-S2-Rod"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="When you see these logos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Or-M7-Ga9">
+                                <rect key="frame" x="51" y="412" width="274" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3Or-M7-Ga9" secondAttribute="height" multiplier="137:16" id="oZo-CG-Ea1"/>
+                                    <constraint firstAttribute="width" constant="274" id="vha-Zg-UhC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="25"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press to Call EST" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0J-Q0-3ae">
+                                <rect key="frame" x="29" y="572" width="80" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="z0J-Q0-3ae" secondAttribute="height" multiplier="10:7" id="BvW-jN-5BZ"/>
+                                    <constraint firstAttribute="height" constant="56" id="LR5-ks-MjF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sendmessage3" translatesAutoresizingMaskIntoConstraints="NO" id="cMS-58-yZt">
+                                <rect key="frame" x="138.5" y="480" width="98" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cMS-58-yZt" secondAttribute="height" multiplier="49:47" id="LNO-aG-Oxu"/>
+                                    <constraint firstAttribute="height" constant="94" id="NS6-Kx-ACQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press to Send Location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zw-LV-rPC">
+                                <rect key="frame" x="121" y="572" width="133" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="3Mi-Yj-a8L"/>
+                                    <constraint firstAttribute="width" secondItem="7Zw-LV-rPC" secondAttribute="height" multiplier="133:52" id="yOF-ih-hNi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17647058823529413" green="0.19215686274509805" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aIR-Fi-bMd" secondAttribute="trailing" constant="31" id="3ZU-dd-NgK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2iG-It-jNJ" secondAttribute="trailing" constant="41" id="Acw-dB-ZfS"/>
+                            <constraint firstItem="3Or-M7-Ga9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Bmk-sM-e9E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2iG-It-jNJ" secondAttribute="bottom" constant="90" id="Bn3-1r-hEj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="z0J-Q0-3ae" secondAttribute="bottom" constant="39" id="DMK-Bz-FJz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Zw-LV-rPC" secondAttribute="bottom" constant="43" id="Drb-P4-CbU"/>
+                            <constraint firstItem="z0J-Q0-3ae" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="H1X-gv-9Tx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cMS-58-yZt" secondAttribute="bottom" constant="93" id="NAg-hS-xE6"/>
+                            <constraint firstItem="v6K-vg-GwW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="a4n-zs-Onb"/>
+                            <constraint firstItem="7Zw-LV-rPC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="al7-s1-XAV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aIR-Fi-bMd" secondAttribute="bottom" constant="39" id="mIG-UX-C4y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3Or-M7-Ga9" secondAttribute="bottom" constant="223" id="oKn-jP-n8p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v6K-vg-GwW" secondAttribute="bottom" constant="90" id="tdR-eF-Doj"/>
+                            <constraint firstItem="cMS-58-yZt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="y4Z-7S-rXW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AED logo green" width="2297" height="3503"/>
+        <image name="Red_Phone_Font-Awesome.svg" width="1024" height="1024"/>
+        <image name="sendmessage3" width="502" height="426"/>
+    </resources>
+</document>
